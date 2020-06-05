@@ -6,7 +6,9 @@ public class NextFit implements Fit{
 	
 	
     public void fit(ArrayList<Bin> arr, Item item) {
+	    
         Bin bin = new Bin();
+	    
         if(arr.size() == 0){
             bin.update(item);
             arr.add(bin);
